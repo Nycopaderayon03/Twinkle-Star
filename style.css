@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .wrapper {
+    height: 100vh;
+    background: #000;
+  
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .portrait {
+    font-size: 8
+      px;
+    line-height: 10px;
+    background: url('https://scontent-hkg4-1.xx.fbcdn.net/v/t1.15752-9/426563019_430654455984523_982679629240983739_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeE3L7U4WksxRUUigZHHeENsxSckdEtJAqnFJyR0S0kCqWHOUuNshErawBoXOsuA5zUMy7qDi06pdhydStRqUf9_&_nc_ohc=-aFLNz5NmA8AX-reV6k&_nc_ht=scontent-hkg4-1.xx&oh=03_AdT0ON2JXr3duXmCzhcBwq_RK_wjqHRRGnkTIHaDnfthIQ&oe=65F2F51D') fixed center no-repeat;
+    background-size: contain;
+  }
+  
+  /* This part is important for the feature itself */
+  .portrait {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(15, 15, 15, 0.1);
+    
+  }
+  
